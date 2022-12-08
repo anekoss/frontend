@@ -1,0 +1,44 @@
+
+@media only screen
+and (min-width : 950px)
+and (max-width : 1920px){
+    .mainWrapper{
+        display:flex;
+        justify-content: space-around;
+        grid-template-columns: 1fr 2fr;
+        margin-top: 10px;
+
+    }
+}
+
+@media only screen
+and (min-width : 0px)
+and (max-width : 950px){
+    .mainWrapper{
+        display:grid;
+        grid-template-rows: auto auto;
+        margin-top: 10px;
+
+    }
+}
+@media only screen
+and (min-width : 650px)
+and (max-width : 950px){
+    .mainWrapper{
+        display:grid;
+        grid-template-rows: auto auto;
+        margin-top: 10px;
+
+    }
+}
+
+.tableResults{
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+    font-weight: bold;
+
+}
+
+
+

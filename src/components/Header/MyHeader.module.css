@@ -1,0 +1,113 @@
+
+@media only screen
+and (min-width : 1055px)
+and (max-width : 1920px){
+    .header {
+        text-decoration: none;
+        margin-top: 0;
+        margin-left: 0;
+        height: 70px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(auto, auto);
+        justify-items: stretch;
+        align-content: center;
+    }
+}
+.aboutInfo>a:hover{
+    color: #442974;
+
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 7px white;
+}
+
+
+
+.logo {
+    padding:2px;
+}
+.userSign, .aboutInfo>a{
+    text-shadow: 2px 2px 2px #8BDFE2;
+    color: #41266e;
+
+    font-family: "Impact", fantasy;
+
+
+
+}
+
+
+
+@media (min-width: 859px) and (max-width: 1055px) {
+    .aboutInfo{
+        text-decoration: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(65px, 65px);
+        text-align: center;
+        color: black;
+        background-color: #00000000;
+        border-radius: 0;
+        box-shadow: 0 0 0 #00000000;
+    }
+
+    .aboutInfo>a:hover{
+        color: #faf8ed;
+        background-color: #5F4393;
+        border-radius: 5px;
+
+        box-shadow: 0 2px 5px #442974;
+    }
+
+    .aboutInfo>a:link{
+        text-decoration: none;
+    }
+    .aboutInfo>a:visited{
+        text-decoration: none;
+    }
+}
+
+
+@media only screen
+and (min-width : 0px)
+and (max-width : 859px){
+    .aboutInfo{
+        visibility:hidden;
+        display:none;
+        text-decoration: none;
+        font-family: "Impact", fantasy;
+
+    }
+    .aboutInfo>a:hover{
+        color: #442974;
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 0 0 7px white;
+    }
+
+    .aboutInfo>a:link{
+        text-decoration: none;
+    }
+    .aboutInfo>a:visited{
+        text-decoration: none;
+    }
+}
+
+.header{
+    padding-top: 15px;
+    font-size: 18pt;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.userSign{
+    text-align: center;
+}
+
+.user_container{
+    display:flex;
+}
+.user_container>a{
+    padding-left:20px;
+}

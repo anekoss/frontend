@@ -1,0 +1,31 @@
+*{
+    font-variant: small-caps;
+    /*font-family: "Impact", fantasy;*/
+    font-family: "Arial", sans-serif;
+    color:#41266e;
+    /*font-family: "Tahoma", "Arial", sans-serif;*/
+}
+
+
+@media only screen
+and (min-width : 1055px)
+and (max-width : 1920px) {
+    #root {
+        height: 100vh;
+        background: linear-gradient(to bottom right, rgb(234, 201, 226), #cf5daa);
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1055px) and (orientation:portrait) {
+    #root {
+        height: 100vh;
+        background: linear-gradient(to bottom right,#cf5daa,  #8BDFE2 );
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1055px) and (orientation:landscape) {
+    #root {
+        /*height: 100vh;*/
+        background: linear-gradient(to bottom right,#cf5daa,  #8BDFE2 );
+    }
+}
